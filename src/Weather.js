@@ -3,7 +3,6 @@ import axios from "axios";
 
 export default function Weather() {
   let [city, setCity] = useState("");
-  let [message, setMessage] = useState("");
 
   function handleSearch(event) {
     setCity(event.target.value);
@@ -40,7 +39,6 @@ export default function Weather() {
         />
         <input type="submit" value="search" />
       </form>
-      <p>{message}</p>
     </div>
   );
 }
