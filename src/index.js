@@ -11,6 +11,7 @@ root.render(
     <div className="App">
       <h1>Weather App</h1>
       <Weather/>
+      <App/>
     </div>
   </React.StrictMode>
 );
